@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,8 +11,7 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 	crossorigin="anonymous">
-
-<title>Login</title>
+<title>Nosotros</title>
 
 <!-- Cambio de estilo breadcrumb -->
 <style>
@@ -43,7 +41,7 @@
 				<li class="nav-item"><a class="nav-link" href="#"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"
+				<li class="nav-item active"><a class="nav-link" href="#"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Nosotros</a></li>
 				<li class="nav-item"><a class="nav-link" href="#"
@@ -52,13 +50,12 @@
 				<li class="nav-item"><a class="nav-link" href="#"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Contacto</a></li>
-				<li class="nav-item active"><a class="nav-link" href="#"
+				<li class="nav-item"><a class="nav-link" href="#"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Login</a></li>
 			</ul>
 		</div>
 	</nav>
-
 
 	<div class="container">
 
@@ -67,40 +64,38 @@
 		<nav class="breadcrumb" aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="#">Home</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Login</li>
+				<li class="breadcrumb-item active" aria-current="page">Nosotros</li>
 			</ol>
 		</nav>
 
 		<!-- Contenido -->
 
-		<h1 class="display-2 py-5 text-center">Login</h1>
+		<h1 class="display-2 py-5 text-center">Nosotros</h1>
 
-		<form class="form-group col-12">
-			<div class="form-group">
-				<label for="inputPlani">Seleccióna tu sesión</label> <select
-					id="inputPlani" class="form-control">
-					<option selected>--Sesión--</option>
-					<option>Cliente</option>
-					<option>Administrador</option>
-					<option>Profesional</option>
-				</select>
-			</div>
+		<div class="jumbotron">
+			<hr class="my-4">
+			<h2 class="display-4">PREVENCIÓN SOSTENIBLE</h2>
+			<p class="lead">Somos un servicio de prevención ajeno de riesgos
+				laborales acreditado a nivel nacional con más de 20 años de
+				experiencia en seguridad laboral, higiene industrial, ergonomía y
+				psicosociología aplicada y más de 25 años en medicina del trabajo y
+				realizando exámenes de salud en consonancia con cada puesto de
+				trabajo.</p>
+			<hr class="my-4">
+			<h2 class="display-4">CREEMOS EN LA PREVENCIÓN</h2>
+			<p>Nos constituimos en 1995 como empresa dinámica y flexible que
+				se adapta a las necesidades del cliente. Compuesta por personal
+				experto en cada una de las áreas que ofrecen un trato cercano,
+				directo y sencillo.</p>
+			<hr class="my-4">
+			<h2 class="display-4">ESTAMOS DONDE NOS NECESITA</h2>
+			<p>Les asistimos y acompañamos en las citas de inspección de
+				trabajo. Les ayudamos y asesoramos en la investigación de accidentes
+				y ante problemas de salud de sus trabajadores realizaremos un
+				estudio individualizado del caso. Le proporcionamos un primer
+				asesoramiento con una simple llamada telefónica.</p>
+		</div>
 
-			<div class="form-group">
-				<label for="usuario">Usuario</label> <input type="text"
-					name="usuario" class="form-control" id="inputUser1"
-					aria-describedby="user" placeholder="Enter email"> <small
-					id="usuario" class="form-text text-muted">Escribe tu
-					usuario aquí</small>
-			</div>
-			<div class="form-group">
-				<label for="pass">Contraseña</label> <input type="password"
-					name="pass" class="form-control" id="exampleInputPassword1"
-					placeholder="Password">
-			</div>
-			<button type="submit" class="btn btn-primary col-3 my-2 my-sm-0">Enviar</button>
-			<a id="emailHelp" type="submit" class="form-text text-muted" role="button">Te ayudamos a recordar la contraseña</a>
-		</form>
 
 	</div>
 
@@ -114,16 +109,13 @@
 	</div>
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-		crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
 	<script
-		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 		crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

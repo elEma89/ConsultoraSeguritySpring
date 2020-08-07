@@ -22,6 +22,10 @@
 		font-size: 9pt;
 		margin-bottom: -25px;
 		}
+		
+		.txt-title {
+    	margin-bottom: -100px;
+    	}
 	</style>
 
 </head>
@@ -40,7 +44,7 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item"><a class="nav-link" href="#"
+				<li class="nav-item active"><a class="nav-link" href="#"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Home</a></li>
 				<li class="nav-item"><a class="nav-link" href="#"
@@ -63,11 +67,21 @@
 		</div>
 	</nav>
 
-	<!-- Contenido -->
-
 	<div class="container">
 
-		<h1 class="py-5 text-center">home</h1>
+	<!-- Contenido -->
+      <h5 class="txt-title display-4 py-5 text-center">CONSULTORA</h5>
+      <h1 class="display-1 py-5 text-center">SEGURITY SPRING</h1>
+
+      <div class="jumbotron">
+        <hr class="my-4">
+        <h2 class="display-4">EMPRESA DE PREVENCIÓN DE RIESGOS LABORALES</h2>
+        <p class="lead">Hacemos sostenible la prevención, conoce nuestros servicios y dejanos ayudarte con tus proyectos</p>
+        <hr class="my-4">
+        <h5 class="display-4">Servicios de prevención de riesgos laborales</h5>
+        <p>Es un Servicio de Prevención Ajeno acreditado por organismo competente para actuar en territorio nacional y cumple con lo dispuesto por la Ley 31/95 de Prevención de Riesgos Laborales.</p>
+        <a class="btn btn-outline-success" href="#" role="button">Saber mas</a>
+      </div>
 
 	</div>
 

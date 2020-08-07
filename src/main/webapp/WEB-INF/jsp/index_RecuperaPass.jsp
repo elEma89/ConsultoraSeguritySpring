@@ -63,7 +63,7 @@
 		</div>
 	</nav>
 
-	<!-- Contenido -->
+
 
 	<div class="container">
 
@@ -77,6 +77,8 @@
 					contraseña</li>
 			</ol>
 		</nav>
+		
+			<!-- Contenido -->
 
 		<h2 class="py-5 text-center">Te ayudamos a recordar tu contraseña</h2>
 
