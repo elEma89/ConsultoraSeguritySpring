@@ -8,8 +8,10 @@
    	<meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
     <title>Reportar accidente</title>
 </head>
 <body>
@@ -52,37 +54,37 @@
 
         <h1 class="py-5 text-center">Reportar accidente</h1>
 
-        <form>
+        <form action="/guardaAccidente" method="get">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="formGroupName">Nombre Solicitante</label>
-                <input type="text" class="form-control" placeholder="Tu nombre aquí">
+                <label for="nomSolicita">Nombre Solicitante</label>
+                <input type="text" name="nomSolicita" class="form-control" placeholder="Tu nombre aquí">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputRut">Rut Solicitante</label>
-                <input type="txt" class="form-control" placeholder="23.123.543-k">
+                <label for="rutSolicita">Rut Solicitante</label>
+                <input type="text" name="rutSolicita" class="form-control" placeholder="23.123.543-k">
               </div>
               <div class="form-group col-md-6">
-                <label for="formGroupExampleInput">Nombre Empresa</label>
-                <input type="text" class="form-control" placeholder="Tu nombre aquí">
+                <label for="nomEmpresa">Nombre Empresa</label>
+                <input type="text" name="nomEmpresa" class="form-control" placeholder="Tu nombre aquí">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputRut">Rut Empresa</label>
-                <input type="txt" class="form-control" placeholder="76.454.234-6">
+                <label for="rutEmpresa">Rut Empresa</label>
+                <input type="text" name="rutEmpresa" class="form-control" placeholder="76.454.234-6">
               </div>
             </div>
             <div class="form-group">
-              <label for="inputAddress">Dirección Empresa</label>
-              <input type="text" class="form-control" placeholder="Avenida siempre viva, 742">
+              <label for="direccion">Dirección Empresa</label>
+              <input type="text" name="direccion" class="form-control" placeholder="Avenida siempre viva, 742">
             </div>
             <div class="form-group">
-                <label for="inputReference">Añade una referencia</label>
-                <input type="text" class="form-control" placeholder="Casa morada con ventanal a la calle">
+                <label for="referencia">Añade una referencia</label>
+                <input type="text" name="referencia" class="form-control" placeholder="Casa morada con ventanal a la calle">
             </div>
             <div class="form-row">
                 <div class="form-group col-md-4">
-                    <label for="inputRegion">Región de empresa</label>
-                    <select id="inputRegion" class="form-control">
+                    <label for="region">Región de empresa</label>
+                    <select id="inputRegion" name="region" class="form-control">
                         <option selected>--Región--</option>
                         <option>II Antofagasta</option>
                         <option>I Tarapacá</option>
@@ -103,8 +105,8 @@
                     </select>
                 </div>
               <div class="form-group col-md-4">
-                <label for="inputComuna">Comuna de empresa</label>
-                <select id="inputComuna" class="form-control">
+                <label for="comuna">Comuna de empresa</label>
+                <select id="inputComuna" name="comuna" class="form-control">
                 <option selected>--Comuna--</option>
                     <option>Colina</option>
                     <option>Lampa</option>
@@ -160,8 +162,8 @@
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="inputAsesoria">Nivel de accidente</label>
-                <select id="inputAsesoria" class="form-control">
+                <label for="nivAccidente">Nivel de accidente</label>
+                <select id="inputAsesoria" name="nivAccidente" class="form-control">
                 <option selected>--Accidente--</option>
                     <option>Leve</option>
                     <option>Grave</option>
@@ -171,12 +173,12 @@
               </div>
             </div>
             <div class="form-group">
-                <label for="Textarea1">Comente en breves palabras el hecho</label>
-                <textarea type="text" class="form-control" rows="4" placeholder="Tu comentario"></textarea>
+                <label for="accidente">Comente en breves palabras el hecho</label>
+                <textarea name="accidente"  class="form-control" rows="4" placeholder="Tu comentario"></textarea>
             </div>
             <div class="form-group">
-                <label for="Textarea1">Comentario adicional</label>
-                <textarea type="text" class="form-control" rows="4" placeholder="Tu comentario"></textarea>
+                <label for="comentarios">Comentario adicional</label>
+                <textarea name="comentarios" class="form-control" rows="4" placeholder="Tu comentario"></textarea>
             </div>
             <button type="submit" class="btn btn-primary col-3 my-2 my-sm-0">Enviar</button>
         </form>

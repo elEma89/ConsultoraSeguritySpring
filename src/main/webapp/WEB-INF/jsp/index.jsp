@@ -20,7 +20,7 @@
 	<!-- Menu -->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Segurity</a>
+		<a class="navbar-brand" href="#">SEGURIDAD</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -46,8 +46,8 @@
 				<li class="nav-item"><a class="nav-link" href="#"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Contacto</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"
-					id="navbarDropdown" role="button" data-toggle="dropdown"
+				<li class="nav-item"><a class="nav-link" href="/login" 
+				id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Login</a></li>
 			</ul>
 		</div>

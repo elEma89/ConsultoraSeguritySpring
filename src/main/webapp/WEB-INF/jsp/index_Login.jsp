@@ -8,8 +8,10 @@
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
     <title>Login</title>
 </head>
 <body>
@@ -49,10 +51,10 @@
       
       <h1 class="py-5 text-center">Login</h1>
 
-        <form class="form-group col-12">
+        <form action="/logeo" method="post" class="form-group col-12">
         <div class="form-group">
-            <label for="inputPlani">Seleccióna tu sesión</label>
-            <select id="inputPlani" class="form-control">
+            <label for="rol">Seleccióna tu sesión</label>
+            <select id="rol" name="rol" class="form-control">
                 <option selected>--Sesión--</option>
                     <option>Cliente</option>
                     <option>Administrador</option>
@@ -61,13 +63,13 @@
         </div>
 
         <div class="form-group">
-          <label for="inputUser1">Usuario</label>
-          <input type="user" class="form-control" id="inputUser1" aria-describedby="user" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">Escribe tu usuario aquí</small>
+          <label for="usuario">Usuario</label>
+          <input type="text" name="usuario" class="form-control" id="inputUser1" aria-describedby="user" placeholder="Enter email">
+          <small id="usuario"  class="form-text text-muted">Escribe tu usuario aquí</small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <label for="pass">Contraseña</label>
+          <input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
         <button type="submit" class="btn btn-primary col-3 my-2 my-sm-0">Enviar</button>
         </form>
@@ -85,8 +87,16 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
 </body>
 </html>
