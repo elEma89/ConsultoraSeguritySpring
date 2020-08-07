@@ -30,7 +30,7 @@
 	<!-- Menu -->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Segurity</a>
+		<a class="navbar-brand" href="/home">SEGURIDAD</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,19 +40,19 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item"><a class="nav-link" href="#"
+				<li class="nav-item"><a class="nav-link" href="/home"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"
+				<li class="nav-item"><a class="nav-link" href="/nosotros"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Nosotros</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"
+				<li class="nav-item"><a class="nav-link" href="/servicios"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Servicios</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"
+				<li class="nav-item"><a class="nav-link" href="/contacto"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Contacto</a></li>
-				<li class="nav-item active"><a class="nav-link" href="#"
+				<li class="nav-item active"><a class="nav-link" href="/login"
 					id="navbarDropdown" role="button" data-toggle="dropdown"
 					aria-haspopup="true" aria-expanded="false">Login</a></li>
 			</ul>
@@ -66,7 +66,7 @@
 
 		<nav class="breadcrumb" aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="#">Home</a></li>
+				<li class="breadcrumb-item"><a href="/home">Home</a></li>
 				<li class="breadcrumb-item active" aria-current="page">Login</li>
 			</ol>
 		</nav>
@@ -99,7 +99,9 @@
 					placeholder="Password">
 			</div>
 			<button type="submit" class="btn btn-primary col-3 my-2 my-sm-0">Enviar</button>
-			<a id="emailHelp" type="submit" class="form-text text-muted" role="button">Te ayudamos a recordar la contraseña</a>
+			<a id="emailHelp" type="submit" class="form-text text-muted"
+				href="/recuperalog" role="button">Te ayudamos a recordar la
+				contraseña</a>
 		</form>
 
 	</div>
