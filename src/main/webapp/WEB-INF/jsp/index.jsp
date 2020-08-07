@@ -14,6 +14,16 @@
 	crossorigin="anonymous">
 
 <title>Home</title>
+
+<!-- Cambio de estilo breadcrumb -->
+	<style>
+		.breadcrumb {
+		background:white;
+		font-size: 9pt;
+		margin-bottom: -25px;
+		}
+	</style>
+
 </head>
 <body>
 
