@@ -1,12 +1,8 @@
 package cl.demoprueba9.dp9;
 
-import javax.websocket.server.PathParam;
-
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import cl.demoprueba9.dp9.entity.Roles;
@@ -15,7 +11,7 @@ import cl.demoprueba9.dp9.entity.Roles;
 public class HomeController {
 	
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String home() {
 		return "index";
 	}
@@ -42,4 +38,36 @@ public class HomeController {
 		
 	}
 
+	@GetMapping("/homei")
+	public String ihome() {
+		return "index";
+	}
+	
+	@GetMapping("/nosotros")
+	public String inosotros() {
+		return "index_Nosotros";
+	}
+	
+	@GetMapping("/servicios")
+	public String iServicios() {
+		return "index_Servicios";
+	}
+	
+	@GetMapping("/contacto")
+	public String icontacto() {
+		return "index_Contacto";
+	}
+	
+	@GetMapping("/recuperalog")
+	public String irecuperapass() {
+		return "index_RecuperaPass";
+	}
+	
+	@GetMapping("/cliente_index")
+	public String clienteindex() {
+		return "Cliente/cliente_index";
+	}
+	
+	
+	
 }
